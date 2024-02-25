@@ -25,16 +25,36 @@ This project focuses on the task of sequential sentence classification using Con
 ## Conclusion
 - The CNN model offers an effective solution for sequential sentence classification in biomedical abstracts. While it provides computational efficiency and competitive performance, continuous refinement through regularization techniques and hyperparameter tuning is essential to achieve optimal results. 
 
-# Multi-FireArm Audio Detection using Deep learning
-
-## Overview
-This project focuses on detecting gunshot audio using Convolutional Neural Networks (CNNs), achieving an accuracy of 92.56%. Leveraging machine learning (ML) and deep learning (DL) techniques, this solution demonstrates proficiency in real-world applications. The project utilizes Librosa for audio preprocessing and TensorFlow for model development.
+# Multi-FireArm Audio Detection using Deep Learning
 
 ## Features
 - Gunshot audio detection using CNNs.
 - Achieved an accuracy of 92.56%.
 - Utilizes Librosa for audio preprocessing.
 - TensorFlow is employed for model development.
+
+## CNN Model Overview
+- Utilizes spectrogram features for audio representation.
+- Employs convolutional layers to capture spatial hierarchies in the spectrogram.
+- Trained using the Adam optimizer and categorical cross-entropy loss.
+- Achieves competitive performance in classifying gunshot audio samples.
+
+## LSTM Model Overview
+- Processes audio data through Mel-frequency cepstral coefficients (MFCC).
+- Utilizes a Bidirectional LSTM architecture to capture temporal dependencies.
+- Incorporates mechanisms such as early stopping and learning rate scheduling for training.
+- Demonstrates strong performance in classifying gunshot audio samples.
+
+## Discussion
+- Both models exhibit high accuracy, precision, recall, and F1-score, indicating their effectiveness in gunshot audio detection.
+- The CNN model captures spatial features well, while the LSTM model excels in modeling temporal dependencies.
+- Further experimentation and validation on diverse datasets are recommended to enhance model robustness.
+
+## Overview
+This project focuses on detecting gunshot audio using Convolutional Neural Networks (CNNs), achieving an accuracy of 92.56%. Leveraging machine learning (ML) and deep learning (DL) techniques, this solution demonstrates proficiency in real-world applications. The project utilizes Librosa for audio preprocessing and TensorFlow for model development.
+
+
+
 
 
 
